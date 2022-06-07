@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Read success",
+      "setup": "javac src/CSE1325/Assignment0/Creature.java -d build/",
+      "run": "java -cp build/ CSE1325.Assignment0.Creature",
+      "input": "Solar\r\n10",
+      "output": "Enter a name for the creature: Enter the creature's level: Name:\t Solar\r\nLevel:\t 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
