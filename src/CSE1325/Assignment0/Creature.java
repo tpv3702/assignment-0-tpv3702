@@ -14,7 +14,7 @@ public class Creature {
         int level = 0;
 
         // Check if Creature information was provided from the command line
-        if (args.length() = 2) {
+        if (args.length == 2) {
             name = args[0];
             level = Integer.parseInt(args[1]);
         } else {
@@ -28,7 +28,7 @@ public class Creature {
         }
 
         String levelString = String.format("Level:\t %d", level);
-        System.out.println("Name:\t " + name)
+        System.out.println("levelString:\t " + levelString);
         System.out.println(levelString);
     }
-}
+            }
